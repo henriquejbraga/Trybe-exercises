@@ -3,16 +3,25 @@ div:hover{
 }
 .div1{
   background-color: maroon;
+  font-style: italic;
+  color: beige;
 }
 .div2{
   background-color: mediumaquamarine;
+  color: black;
 }
 .div3{
   background-color: mediumblue;
+  color: brown;
+  font-style: italic;
+  height: 60px;
 }
 .div4{
   background-color: mediumorchid;
+  color: darkgreen;
 }
 .div5{
   background-color: midnightblue;
+  color: deeppink;
+  font-style: italic;
 }
