@@ -2,9 +2,13 @@ h1, p {
   text-align: center;
 }
 
-li:hover{
+ul:hover, ol:hover{
   background-color: lightcoral;
 }
+
 li:active{
   background: lightseagreen;
+}
+li{
+  list-style: none;
 }
