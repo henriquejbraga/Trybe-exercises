@@ -24,3 +24,9 @@ li{
 .descriçao{
   font-style: italic;
 }
+aside{
+  position: absolute;
+  top: 2;
+  right: 0;
+  background-color: deeppink;
+}
