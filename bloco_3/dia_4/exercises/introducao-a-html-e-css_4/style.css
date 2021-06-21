@@ -6,3 +6,21 @@ header{
 h1{
   font-style: italic;
 }
+li{
+  display: inline-block;
+  width: 200px;
+  font-size: 20px;
+}
+.italico{
+  font-style: italic;
+}
+.fatos{
+  background-color: crimson;
+  text-decoration-line: underline;
+  }
+.reino{
+  background-color: cadetblue;
+}
+.descriçao{
+  font-style: italic;
+}
