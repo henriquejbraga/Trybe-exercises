@@ -63,7 +63,7 @@ if(angulo){
   }
 }
 else{
-  console.log("erro: angulo invalido");
+  console.log("Erro: angulo invalido");
 }
 
 // exercicio 6
