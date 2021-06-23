@@ -91,4 +91,5 @@ switch (chessPiece.toLowerCase()) {
   default:
     console.log('Erro, peça inválida!');
     break;
-};
+}
+
