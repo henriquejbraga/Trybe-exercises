@@ -1,0 +1,32 @@
+header{
+  background-color: blue;
+  height: 100px;
+  text-align: center;
+}
+h1{
+  font-style: italic;
+}
+li{
+  display: inline-block;
+  width: 200px;
+  font-size: 20px;
+}
+.italico{
+  font-style: italic;
+}
+.fatos{
+  background-color: crimson;
+  text-decoration-line: underline;
+  }
+.reino{
+  background-color: cadetblue;
+}
+.descriçao{
+  font-style: italic;
+}
+aside{
+  position: absolute;
+  top: 2;
+  right: 0;
+  background-color: deeppink;
+}
