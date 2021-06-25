@@ -41,3 +41,31 @@ for (let i = 0; i < n; i +=1){
   espaço = '';
   base -= 1;
 }
+
+// 4- Depois, faça uma pirâmide com n asteriscos de base:
+// n = 5
+
+//   *
+//  ***
+// *****
+
+let n = 5;
+let simbolo = '*';
+let espaço = '';
+let meioMatrix = (n + 1) / 2;
+let controleEsq = meioMatrix;
+let controleDir = meioMatrix;
+
+for (let i = 0; i < meioMatrix; i +=1){
+  for(let j = 0; j <= n; j +=1){
+    if(j >= controleEsq && j <= controleDir){
+      espaço = espaço + simbolo;
+    } else{
+      espaço = espaço + ' ';
+    }
+  }
+  console.log(espaço);
+  espaço = '';
+  controleDir += 1;
+  controleEsq -= 1;
+}
