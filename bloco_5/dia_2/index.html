@@ -89,14 +89,22 @@
     elementoFilhoDiv1_1.appendChild(elementoFilhoImagem);
       // 8
     const lista = document.createElement('ul');
-        const numeros = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
-        'Sete', 'Oito', 'Nove', 'Dez'];
-    for(index = 0; index < numeros.lenght; index += 1){
-      const listaOrd = document.createElement('li');
+    let numeros = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis','Sete', 'Oito', 'Nove', 'Dez'];
+    for(let index = 0; index < numeros.length; index += 1){
+      let listaOrd = document.createElement('li');
       listaOrd.innerHTML = numeros[index];
-      lista.appendChild(listaOrd);       
+      lista.appendChild(listaOrd);      
     }
     elementoFilhoDiv1_2.appendChild(lista);
+      // 9
+    for (let index = 0; index < 3; index += 1) {
+      let h3 = document.createElement('h3');
+      h3.innerHTML = index;
+      elementoDiv.appendChild(h3);
+    }
+    // 1
+    const titulo = document.querySelector('h1')
+    titulo.className = 'title'
     </script>
   </body>
 </html>
