@@ -1,0 +1,10 @@
+O que eu vou aprender na Trybe:
+
+- Unix
+- Bash
+- Git
+- Trabalho em grupo
+- Soft skills
+- HTML
+- CSS
+
