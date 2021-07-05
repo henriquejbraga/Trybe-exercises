@@ -58,6 +58,37 @@
   <body>
     <script>
       // COLOQUE SEU CÓDIGO AQUI
+      // 1
+    const elementoH1 = document.createElement('h1');
+    elementoH1.innerHTML = 'Exercício 5.2 - JavaScript DOM';
+    document.body.appendChild(elementoH1);
+      // 2
+    const elementoDiv = document.createElement('div');
+    elementoDiv.className = 'main-content';
+    document.body.appendChild(elementoDiv);
+      // 3
+    const elementoFilhoDiv = document.createElement('div');
+    elementoFilhoDiv.className = 'center-content';
+    elementoDiv.appendChild(elementoFilhoDiv);
+      // 4
+    const elementoFilhoDiv2 = document.createElement('p');
+    elementoFilhoDiv2.innerHTML = 'Texto a escrever'
+    elementoFilhoDiv.appendChild(elementoFilhoDiv2);
+      // 5
+    const elementoFilhoDiv1_1 = document.createElement('div');
+    elementoFilhoDiv1_1.className = 'left-content';
+    elementoDiv.appendChild(elementoFilhoDiv1_1);
+      // 6
+    const elementoFilhoDiv1_2 = document.createElement('div');
+    elementoFilhoDiv1_2.className = 'right-content';
+    elementoDiv.appendChild(elementoFilhoDiv1_2);
+      // 7
+    const elementoFilhoImagem = document.createElement('img');
+    elementoFilhoImagem.className = 'small-image';
+    elementoFilhoImagem.src = 'https://picsum.photos/200';
+    elementoFilhoDiv1_1.appendChild(elementoFilhoImagem);
+
+    
     </script>
   </body>
 </html>
