@@ -89,19 +89,14 @@
     elementoFilhoDiv1_1.appendChild(elementoFilhoImagem);
       // 8
     const lista = document.createElement('ul');
-    elementoFilhoDiv1_2.appendChild(lista);
-    const numeros = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
+        const numeros = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
         'Sete', 'Oito', 'Nove', 'Dez'];
     for(index = 0; index < numeros.lenght; index += 1){
       const listaOrd = document.createElement('li');
       listaOrd.innerHTML = numeros[index];
-      lista.appendChild(listaOrd);
-    
-       
-
+      lista.appendChild(listaOrd);       
     }
-
-    
+    elementoFilhoDiv1_2.appendChild(lista);
     </script>
   </body>
 </html>
