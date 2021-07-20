@@ -17,7 +17,7 @@ figure {
   padding: 10px;
   text-align: center;
 }
-@media screen and (min-width: 794px) {
+@media screen and (min-width: 500px) {
   body {
     background: rgba(2, 2, 175, 0.2);
     margin: 25px 6%;
@@ -30,7 +30,7 @@ figure {
   }
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 700px) {
   body {
     background: rgba(3, 95, 3, 0.2);
     margin: 25px 10%;

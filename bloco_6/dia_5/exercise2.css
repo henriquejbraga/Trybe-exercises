@@ -4,3 +4,33 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+@media screen and (min-width: 500px) {
+  body {
+    background-color: aquamarine;
+    text-align: left;
+  }
+  .aside-one {
+    font-style: oblique;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    background-color: rgb(196, 89, 40);
+    text-align: center;
+  }
+  .aside-one {
+    font-style: normal;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    background-color: rgb(60, 12, 236);
+    text-align: right;
+  }
+  .aside-one {
+    font-style: oblique;
+  }
+}
