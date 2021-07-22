@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+      <button class="botao">Click aqui</button>
+  </div>
+  <div>
+    <span class="texto">
+  </span>
+  </div>
+</body>
+<script>
+  let clickCount = 0;
+  let texto = document.querySelector('.texto');
+  let contador = document.querySelector('.botao');
+  
+  contador.addEventListener('click', () => texto.innerText = clickCount += 1);
+</script>
+</html>
