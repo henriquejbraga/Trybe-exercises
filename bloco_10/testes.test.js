@@ -11,4 +11,7 @@ describe('sum', () => {
     expect(() => { sum(4,'5');}).toThrow()});
     test('Teste se a mensagem de erro é "parameters must be numbers" quando realizar a chamada sum(4, "5")', () => {
       expect(() => { sum(4,'5');}).toThrow("parameters must be numbers")});
+
+
+
 });
