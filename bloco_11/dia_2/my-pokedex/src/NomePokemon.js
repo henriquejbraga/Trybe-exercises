@@ -3,6 +3,7 @@ import React from 'react';
 
 class NomePokemon extends React.Component {
   render() { 
+    console.log(this.props.pokemon);
     const { pokemon: { name, type, averageWeight, image } } = this.props;
    return (
     <div className="pokemon">
